@@ -1,6 +1,8 @@
-# TechFurMeet-MicroPython
+# MicroPython workshop at TechFurMeet
 
 This document contains useful information that will be used for [TechFurMeet](https://www.techfurmeet.org/) workshop. But feel free to use it anywhere else :)
+
+[Link to presentation](https://docs.google.com/presentation/d/1s5l5uXPHnwexjAZdf8eqWwv_EDYjKUNP4exJiZsZvaw/edit?usp=sharing)
 
 ## Important links
 
