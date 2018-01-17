@@ -28,8 +28,7 @@ sudo esptool.py --port /dev/ttyUSB0 -b 115200 erase_flash
 ```
 sudo esptool.py --port /dev/ttyUSB0 -b 115200 write_flash --flash_size=detect 0 esp8266-20171101-v1.9.3.bin
 ```
-
-
+Then you can verify it's functionality by connecting to MicroPython shell:
 ```
 sudo picocom -b 115200 /dev/ttyUSB0
 ```
