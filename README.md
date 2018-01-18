@@ -11,11 +11,14 @@ This document contains useful information that will be used for [TechFurMeet](ht
 * [MicroPython WebREPL](https://micropython.org/webrepl/) - allows you to connect to MicroPython interactive console over wifi and send/receive files from microcontroller.
 * [MIcroPython course from Pyladies in Czech](http://naucse.python.cz/lessons/beginners/micropython/)
 
-## Useful tools
+## Recommended tools
+
+* [ESPlorer](https://esp8266.ru/esplorer/) - multiplatform GUI interface in Java. Enables you to run python code directly or from scripts, upload scripts to microcontroller and more.
+
+## Optional tools (mainly for linux)
 
 * [esptool.py](https://github.com/espressif/esptool) - command line tool to communicate with microcontroller. Useful for erasing and flashing firmware.
 * [ampy](https://github.com/adafruit/ampy) - command line tool to interact with MicroPython board. Useful for managing files on microcontroller and run scripts.
-* [ESPlorer](https://esp8266.ru/esplorer/) - multiplatform GUI interface in Java. Enables you to run python code directly or from scripts, upload scripts to microcontroller and more.
 * [picocom](https://github.com/npat-efault/picocom) - command line tool enabling connection to MicroPython interpret on microcontroller (quit with CTRL + a CTRL + q).
 
 ## How to flash MicroPython to ESP8266
