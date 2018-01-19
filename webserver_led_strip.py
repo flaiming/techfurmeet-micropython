@@ -59,20 +59,15 @@ while True:
     conn.close()
 
     data = str(request).split()[1]
-    print(data)
     if data.startswith('/?'):
         for params in data[2:].split('&'):
             param, val = params.split('=')
             if '_' in param:
                 key, num = param.split('_')
                 if key == 'color':
-                    if val:
-                        print(val)
-                        np[int(num)] = tuple(map(int, val.split('-')))
-                    else:
-                        np[int(num)] = (0, 0, 0)
-        #for i, d in enumerate(data.split('_')):
-        #    print(d, i)
-        #    r, g, b = map(int, d.strip().split('-'))
-        #    np[i] = (r, g, b)
+                    if val and len(val.split('-')) == 3:
+                        try:
+                            np[int(num)] = tuple(map(int, val.split('-')))
+                        except ValueError:
+                            print('Wrong value of %s' % val)
         np.write()
